@@ -13,7 +13,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 
-function addElementToEndOfArray() {
+function addElementToEndOfArray(array, element) {
   var newArray2=[...array,element];
   return newArray2;
 }
